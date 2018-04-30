@@ -7,18 +7,27 @@ site:
 content:
   sources:
   - url: .
-    branches: antora-init
+    branches: HEAD
   - url: ../metrics-apb
-    branches: AEROGEAR-2475
+    branches: HEAD
     start_path: docs
   - url: ../unifiedpush-apb
-    branches: MOBDOC-10
+    branches: HEAD
     start_path: docs
   - url: ../processes
     branches: master
     tags: v*
   - url: ../aerogear-android-sdk
-    branches: AEROGEAR-2512
+    branches: HEAD
+    start_path: docs
+  - url: ../aerogear-ios-sdk
+    branches: HEAD
+    start_path: docs
+  - url: ../aerogear-cordova-sdk
+    branches: HEAD
+    start_path: docs
+  - url: ../aerogear-xamarin-sdk
+    branches: HEAD
     start_path: docs
 asciidoc:
   attributes:

@@ -6,7 +6,7 @@ site:
   start_page: aerogear::index
 content:
   sources:
-  - url: git@github.com:finp/mobile-docs.git
+  - url: git@github.com:aerogear/mobile-docs.git
     branches: antora-init
   - url: git@github.com:finp/metrics-apb.git
     branches: AEROGEAR-2475
