@@ -9,13 +9,16 @@ content:
   - url: .
     branches: HEAD
 asciidoc:
+  extensions:
+  - ./lib/remote-include-processor
   attributes:
     experimental: ''
     idprefix: ''
     idseparator: '-'
     linkattrs: ''
     mobile-next: 'AeroGear Mobile Services'
-    mobile-client: 'mobile client '
+    mobile-client: 'mobile client'
+    Keycloak: 'Auth'
 ui:
   bundle:
     url: ../antora-ui/build/ui-bundle.zip

@@ -3,3 +3,26 @@
 {mobile-next} extends OpenShift or Kubernetes  to allow you create mobile apps and services from the OpenShift service catalog:
 
 image::overview.png[]
+
+
+[source,xml,indent=0,role="primary"]
+.Android
+----
+<dependency>
+    <groupId>com.example</groupId>
+    <artifactId>some-library</artifactId>
+    <version>1.2.3</version>
+</dependency>
+----
+
+[source,swift,indent=0,role="secondary"]
+.iOS
+----
+import AGSAuth
+----
+
+[source,bash,indent=0,role="secondary"]
+.Cordova
+----
+npm install @aerogear/<module>
+----

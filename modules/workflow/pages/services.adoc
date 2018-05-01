@@ -1,0 +1,5 @@
+= Provisioning and Configuring the Mobile Services
+
+Prerequisites:
+
+* [x] You have installed Minishift with the mobilecore addon as described in xref:ROOT:minishift_install.inc.adoc[Setting Up].
