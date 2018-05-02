@@ -1,0 +1,20 @@
+= Provisioning and Configuring Mobile Clients
+
+A mobile client is the representation on OpenShift of the Mobile App that you want to implement. 
+You require a mobile client for each mobile platform you want to develop an app for and you must connect it to each mobile service you want to use. 
+In OpenShift, you can navigate to the mobile client and download the configuration from the mobile client into your development environment. For example:
+
+[source,json,indent=0,role="primary"]
+.Android
+----
+include::https://raw.githubusercontent.com/feedhenry/mobile-security-android-template/master/app/src/main/assets/mobile-services.json[]
+----
+
+[source,json,indent=0,role="secondary"]
+.iOS
+----
+include::https://raw.githubusercontent.com/feedhenry/mobile-security-ios-template/master/secure-ios-app/mobile-services.json[]
+----
+
+NOTE: If you do not see the mobile service you require in this file, you must connect the mobile client to that service as described in xref:connecting-mobile-clients-to-mobile-services.adoc[].
+

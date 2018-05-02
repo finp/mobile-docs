@@ -1,0 +1,10 @@
+= Provisioning a Mobile Client
+
+To provision a mobile client:
+
+. Log into the OpenShift console.
+. Click *Add to Project* and choose *Browse Catalog* from the options.
++
+You can filter the catalog items to only show mobile specific items by clicking the *Other* tab.
+. Choose the mobile client (Android, iOS, Cordova or Xamarin) and follow the wizard for provisioning that client app. 
+

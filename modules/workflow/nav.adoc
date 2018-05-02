@@ -1,4 +1,15 @@
 * xref:index.adoc[Mobile Apps & Services Workflow]
 ** xref:services.adoc[Mobile Services]
+*** Provisioning
+*** Integrating
+*** Configuring
+*** Multiple Projects
 ** xref:clients.adoc[Mobile Clients]
+*** Provisioning
+*** xref:connecting-mobile-clients-to-mobile-services.adoc[Associating with Service]
 ** xref:apps.adoc[Mobile Apps]
+*** Using mobile-services.json
+*** Using AeroGear SDKs
+*** Using the CI/CD Service
+*** Deploying
+

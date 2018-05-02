@@ -8,4 +8,4 @@ image::3steps.png[]
 
 . xref:services.adoc[Provision and configure a mobile service]
 . xref:clients.adoc[Provision and configure a mobile client]
-. xref:apps.adoc[Configure your Mobile App for mobile services]
+. xref:apps.adoc[Configure your mobile app for mobile services]

@@ -1,0 +1,9 @@
+= Associating Mobile Clients with Mobile Services
+
+To use mobile services, you must represent your mobile app in OpenShift using a mobile client and that mobile client must be associated with the mobile service.
+
+TIP: The association between a mobile client and a mobile service uses the xref:https://blog.openshift.com/asynchronous-bind-with-the-automation-broker/[OpenShift bind] feature.
+
+To associate a mobile client with a mobile service:
+
+. Navigate to the mobile client in your OpenShift project.
