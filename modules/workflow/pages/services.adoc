@@ -1,13 +1,15 @@
-= Provisioning and Configuring Mobile Services
+= About Mobile Services
 
-Prerequisites:
+The following services are available:
 
-* [x] You have installed Minishift with the mobilecore addon as described in xref:ROOT:minishift_install.inc.adoc[Setting Up].
+Metrics:: Monitor your mobile app and other AeroGear services, for example you can monitor security metrics for all mobile app instances, as described in <link>.
 
-To provision a mobile service:
+Auth:: Include authentication and authorization in your mobile app using Keycloak. For more information see <link>.
 
-. Log into the OpenShift console.
-. Click *Add to Project* and choose *Browse Catalog* from the options.
-+
-You can filter the catalog items to only show mobile specific items by clicking the *Other* tab.
-. Choose the mobile service and follow the wizard for provisioning that service. 
+Push:: Include push notifications in your mobile app that integrate with Google and Apple networks. For more information see <link>.
+
+CI/CD:: Build and deploy your mobile app for Android and iOS using the CI/CD service. For more information see <link>.
+
+Custom Service:: Integrate your backend app into the OpenShift project to provide rich integration with other mobile services. For more information see <link>.
+
+See xref:provisioning-services.adoc[Provisioning Mobile Services] for instructions.
