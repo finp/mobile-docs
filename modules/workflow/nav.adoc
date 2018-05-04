@@ -8,7 +8,7 @@
 *** xref:provisioning-a-mobile-client.adoc[Provisioning]
 *** xref:connecting-mobile-clients-to-mobile-services.adoc[Associating with Service]
 ** xref:apps.adoc[Mobile Apps]
-*** Using mobile-services.json
+*** xref:using-mobile-services-json.adoc[Using mobile-services.json]
 *** Using AeroGear SDKs
 *** Using the CI/CD Service
 
