@@ -14,6 +14,9 @@ content:
   - url: ../unifiedpush-apb
     branches: HEAD
     start_path: docs
+  - url: ../aerogear-digger-apb
+    branches: HEAD
+    start_path: docs
   - url: ../processes
     branches: master
     tags: v*
@@ -23,7 +26,7 @@ content:
   - url: ../aerogear-ios-sdk
     branches: HEAD
     start_path: docs
-  - url: ../aerogear-cordova-sdk
+  - url: ../aerogear-js-sdk
     branches: HEAD
     start_path: docs
   - url: ../aerogear-xamarin-sdk
