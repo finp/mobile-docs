@@ -17,6 +17,12 @@ content:
   - url: ../aerogear-digger-apb
     branches: HEAD
     start_path: docs
+  - url: ../keycloak-apb
+    branches: HEAD
+    start_path: docs
+  - url: ../custom-runtime-connector-apb
+    branches: HEAD
+    start_path: docs
   - url: ../aerogear-android-sdk
     branches: HEAD
     start_path: docs
@@ -27,12 +33,6 @@ content:
     branches: HEAD
     start_path: docs
   - url: ../aerogear-xamarin-sdk
-    branches: HEAD
-    start_path: docs
-  - url: ../keycloak-apb
-    branches: HEAD
-    start_path: docs
-  - url: ../custom-runtime-connector-apb
     branches: HEAD
     start_path: docs
 asciidoc:
