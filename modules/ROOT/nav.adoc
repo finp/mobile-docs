@@ -3,3 +3,4 @@
 ** xref:mobile_architecture.adoc[Architecture]
 ** xref:minishift_install.inc.adoc[Installing]
 ** xref:getting-started-with-openshift.adoc[Getting Started with OpenShift]
+** xref:workflow.adoc[Mobile Apps & Services Workflow]

@@ -4,5 +4,6 @@ version: 'latest'
 start_ROOT: ROOT:index.adoc
 nav:
 - modules/ROOT/nav.adoc
-- modules/workflow/nav.adoc
+- modules/apps/nav.adoc
+- modules/services/nav.adoc
 
