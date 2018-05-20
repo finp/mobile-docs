@@ -4,9 +4,22 @@
 ** xref:minishift_install.inc.adoc[Installing]
 ** xref:getting-started-with-openshift.adoc[Getting Started with OpenShift]
 ** xref:workflow.adoc[Mobile Apps & Services Workflow]
+* xref:apps.adoc[Mobile Apps]
+** xref:clients.adoc[Registering an App]
+** xref:binding.adoc[Binding an App to a Service
+** xref:building.adoc[Using the CI/CD Service]
 * xref:services.adoc[Mobile Services]
 ** xref:provisioning-services.adoc[Provisioning]
 ** xref:integrating-services.adoc[Integrating]
 ** Configuring
 ** Multiple Projects
+* ---------------------
 * xref:ref_api.adoc[API Reference]
+
+* ---------------------
+
+* xref:adding-authentication-to-your-app.adoc[Adding Authentication to your App]
+* xref:protecting-your-backend-app-with-keycloak.adoc[Protecting your Backend App with Keycloak]
+* xref:monitoring-your-app-usage.adoc[Monitoring your App Usage]
+* xref:adding-push-notifications.adoc[Adding Push Notifications]
+* xref:using-cicd-for-mobile-app-development.adoc[Using CI/CD for Mobile App Development]
