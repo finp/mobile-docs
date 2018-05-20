@@ -1,3 +1,5 @@
+# consider using preprocessor instead of this script
+
 # until antora includes a feature that enables allow-uri-read for asciidoctor
 # need to run this script to populate content from other repos
 
