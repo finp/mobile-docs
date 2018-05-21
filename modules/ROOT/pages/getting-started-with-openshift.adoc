@@ -12,6 +12,6 @@ When you start OpenShift for the first time, the mobile addon may require some t
 
 == Related Information
 
-* xref:workflow:index.adoc[Overview of Using Mobile Services]
+* xref:workflow.adoc[Overview of Using Mobile Services]
 * xref:https://docs.openshift.org/latest/minishift/getting-started/quickstart.html[About MiniShift and OpenShift]
 
