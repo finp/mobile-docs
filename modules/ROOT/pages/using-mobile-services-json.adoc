@@ -7,7 +7,7 @@ Prerequisites:
 
 * [x] You have installed Minishift with the mobilecore addon as described in xref:ROOT:minishift_install.inc.adoc[Setting Up].
 * [x] You have xref:provisioning-services.adoc[provisioned at least one mobile service]
-* [x] You have xref:connecting-mobile-clients-to-mobile-services.adoc[associated your mobile client with a mobile service]
+* [x] You have xref:connecting-mobile-clients-to-mobile-services.adoc[associated your {mobile-client} with a mobile service]
 
 To download the `mobile-services.json` file:
 

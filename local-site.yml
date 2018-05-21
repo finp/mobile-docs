@@ -44,7 +44,7 @@ asciidoc:
     idseparator: '-'
     linkattrs: ''
     mobile-next: 'AeroGear Mobile Services'
-    mobile-client: 'mobile client'
+    mobile-client: 'mobile app record'
     keycloack: 'Auth'
 ui:
   bundle:

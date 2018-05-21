@@ -5,7 +5,7 @@ Prerequisites:
 
 * [x] You have installed Minishift with the mobilecore addon as described in xref:ROOT:minishift_install.inc.adoc[Setting Up].
 
-TIP: If you have provisioned a mobile client, you can navigate to that mobile client and see what mobile services are available to provision.  
+TIP: If you have provisioned a {mobile-client}, you can navigate to that {mobile-client} and see what mobile services are available to provision.  
 
 To provision a mobile service:
 

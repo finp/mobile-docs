@@ -4,23 +4,30 @@
 ** xref:minishift_install.inc.adoc[Installing]
 ** xref:getting-started-with-openshift.adoc[Getting Started with OpenShift]
 ** xref:workflow.adoc[Mobile Apps & Services Workflow]
+
+* xref:services.adoc[Mobile Services]
+** xref:provisioning-services.adoc[Provisioning]
+** xref:integrating-services.adoc[Binding Services]
+
 * xref:apps.adoc[Mobile Apps]
 ** xref:registering-a-mobile-app.adoc[Registering an App]
 ** xref:binding-mobile-app-record-to-mobile-services.adoc[Binding an App to a Service]
 ** xref:configuring-app-dev-env.adoc[Configuring mobile app development environment]
 
-* xref:services.adoc[Mobile Services]
-** xref:provisioning-services.adoc[Provisioning]
-** xref:integrating-services.adoc[Binding Services]
+
+** xref:using-metrics.adoc[Using the Metrics Service]
+** xref:using-push.adoc[Using the Unified Push Service]
+** xref:using-auth.adoc[Using the Auth Service]
+** xref:using-custom.adoc[Using the Custom Runtime Connector Service]
+** xref:using-build.adoc[Using the CI/CD Service]
 
 * ---------------------
 * xref:ref_api.adoc[API Reference]
 * xref:mobile-cli.inc.adoc[Mobile CLI]
 * ---------------------
 
+* xref:monitoring-your-app-usage.adoc[Monitoring your App Usage]
 * xref:adding-security-checks-to-your-app.adoc[Adding Security Checks to your App]
 * xref:adding-authentication-to-your-app.adoc[Adding Authentication to your App]
 * xref:protecting-your-backend-app-with-keycloak.adoc[Protecting your Backend App with Keycloak]
-* xref:monitoring-your-app-usage.adoc[Monitoring your App Usage]
 * xref:adding-push-notifications.adoc[Adding Push Notifications]
-* xref:using-cicd-for-mobile-app-development.adoc[Using CI/CD for Mobile App Development]

@@ -26,7 +26,7 @@ asciidoc:
     idseparator: '-'
     linkattrs: ''
     mobile-next: 'AeroGear Mobile Services'
-    mobile-client: 'mobile client '
+    mobile-client: '{mobile-client} '
 ui:
   bundle:
     url: https://github.com/finp/antora-ui/raw/master/build/ui-bundle.zip
