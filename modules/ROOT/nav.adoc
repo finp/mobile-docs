@@ -1,39 +1,67 @@
 * xref:index.adoc[Getting Started]
-** xref:mobile_terminology.adoc[Terminology]
-** xref:mobile_architecture.adoc[Architecture]
 ** xref:minishift_install.inc.adoc[Installing]
 ** xref:getting-started-with-openshift.adoc[Getting Started with OpenShift]
 ** xref:workflow.adoc[Mobile Apps & Services Workflow]
 
-* xref:services.adoc[Mobile Services]
-** xref:provisioning-services.adoc[Provisioning]
-** xref:integrating-services.adoc[Binding Services]
+** xref:services.adoc[Mobile Services]
+*** xref:provisioning-services.adoc[Provisioning]
+*** xref:integrating-services.adoc[Binding Services]
 
-* xref:apps.adoc[Mobile Apps]
-** xref:registering-a-mobile-app.adoc[Registering an App]
-** xref:binding-mobile-app-record-to-mobile-services.adoc[Binding an App to a Service]
-** xref:configuring-app-dev-env.adoc[Configuring mobile app development environment]
-** xref:building-apps-using-cicd.adoc[Building Apps using CI/CD]
-** xref:writing-your-first-app.adoc[Writing your first app]
+** xref:apps.adoc[Mobile Apps]
+*** xref:registering-a-mobile-app.adoc[Registering an App]
+*** xref:binding-mobile-app-record-to-mobile-services.adoc[Binding an App to a Service]
+*** xref:configuring-app-dev-env.adoc[Configuring mobile app development environment]
 
-* xref:using-the-showcase-apps.adoc[Using the Showcase Apps]
 
-* Solutions
-** xref:monitoring-your-app-usage.adoc[Monitoring your App Usage]
-** xref:adding-security-checks-to-your-app.adoc[Adding Security Checks to your App]
-** xref:adding-authentication-to-your-app.adoc[Adding Authentication to your App]
-** xref:protecting-your-backend-app-with-keycloak.adoc[Protecting your Backend App with Keycloak]
-** xref:adding-push-notifications.adoc[Adding Push Notifications]
+* Mobile Services
+
+** link:custom--index.adoc[Custom Runtime Connector]
+*** xref:custom--provisioning.adoc[Provisioning and binding]
+
+** link:build--index.adoc[CI/CD]
+*** xref:custom--provisioning.adoc[Provisioning and binding]
+
+
+** link:metrics--index.adoc[Metrics]
+*** xref:custom--provisioning.adoc[Provisioning and binding]
+*** link:dummy.adoc[Monitoring your App Usage]
+*** link:dummy.adoc[Monitoring Auth Service]
+*** link:dummy.adoc[Monitoring Push Service]
+
+
+
+
+** xref:adding-security-checks-to-your-app.adoc[Security Checks]
+
+** link:auth--index.adoc[Auth]
+*** xref:custom--provisioning.adoc[Provisioning and binding]
+*** link:android-sdk--auth.adoc[Android Development]
+*** link:ios-sdk--auth.adoc[iOS Development]
+*** link:cordova-sdk--auth.adoc[Cordova Development]
+*** link:xamarin-sdk--auth.adoc[Xamarin Development]
+
+
+
+
+** xref:adding-push-notifications.adoc[Unified Push]
+*** xref:custom--provisioning.adoc[Provisioning and binding]
+
+*** link:android-sdk--push.adoc[Android Development]
+*** link:ios-sdk--push.adoc[iOS Development]
+*** link:cordova-sdk--push.adoc[Cordova Development]
+*** link:xamarin-sdk--push.adoc[Xamarin Development]
+
+
+
+
+** link:build--index.adoc[Building Apps]
+** xref:provisioning.adoc[Provisioning]
+** link:build--provisioning.adoc[Provisioning Wizard]
 
 
 * ---------------------
+* xref:using-the-showcase-apps.adoc[Using the Showcase Apps]
 * xref:ref_api.adoc[API Reference]
 * xref:mobile-cli.inc.adoc[Mobile CLI]
+* xref:mobile_terminology.adoc[Glossary]
 * ---------------------
-
-* link:/metrics/latest/[Using the Metrics Service]
-* link:/push/latest/[Using the Unified Push Service]
-* link:/keycloak/latest/[Using the Auth Service]
-* link:/custom/latest/[Using the Custom Runtime Connector Service]
-* link:/build/latest/[Using the CI/CD Service]
-

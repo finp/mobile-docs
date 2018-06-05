@@ -1,0 +1,58 @@
+runtime:
+  cache_dir: ./.cache/antora
+site:
+  title: AeroGear Mobile Services
+  url: https://www.aerogear.org
+  start_page: aerogear::index
+content:
+  sources:
+  - url: .
+    branches: HEAD
+  - url: ../aerogear-digger-apb
+    branches: HEAD
+    start_path: docs
+  - url: ../aerogear-android-sdk
+    branches: HEAD
+    start_path: docs
+ui:
+  bundle:
+    url: ../antora-ui/build/ui-bundle.zip
+    snapshot: true
+
+asciidoc:
+  extensions:
+  - ./lib/remote-include-processor
+  attributes:
+    experimental: ''
+    idprefix: ''
+    idseparator: '-'
+    linkattrs: ''
+    product-name: 'Mobile Services'
+
+    mobile-client: 'mobile app record'
+
+    metrics-service: 'Metrics Service'
+    grafana-ui: 'Grafana'
+    prometheus-ui: 'Prometheus'
+    
+    keycloak-service: 'Auth Service'
+    keycloak-ui: 'Keycloak admin UI'
+    keycloak-dashboard: 'Auth Dashboard'
+    
+    unifiedpush-service: 'Unified Push Service'
+    push-ui: 'Unified Push admin UI'
+   
+    digger-service: 'CI\CD Service'
+
+    custom-service: 'Custom Runtime Connector Service'
+
+
+    SDK: 'AeroGear SDK'
+
+    ios-sdk: 'AeroGear SDK for iOS'
+
+    android-sdk: 'AeroGear SDK for Android'
+    
+    js-sdk: 'AeroGear SDK for Cordova'
+ 
+    xamarin-sdk: 'AeroGear SDK for Xamarin'
