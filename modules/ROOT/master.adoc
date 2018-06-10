@@ -1,0 +1,51 @@
+:toc:
+:partialsdir: _partials
+include::{partialsdir}/attributes.adoc[]
+
+include::pages/index.adoc[leveloffset=+1]
+include::pages/installing-mobile-services.adoc[leveloffset=+1]
+include::pages/mobile_terminology.adoc[leveloffset=+1]
+// include::pages/mobile_architecture.adoc[leveloffset=+1]
+include::pages/getting-started-with-openshift.adoc[leveloffset=+1]
+include::pages/workflow.adoc[leveloffset=+1]
+
+include::pages/con_services.adoc[leveloffset=+1]
+include::pages/provisioning-services.adoc[leveloffset=+1]
+include::pages/integrating-services.adoc[leveloffset=+1]
+
+include::pages/apps.adoc[leveloffset=+1]
+include::pages/registering-a-mobile-app.adoc[leveloffset=+1]
+include::pages/binding-mobile-app-record-to-mobile-services.adoc[leveloffset=+1]
+include::pages/configuring-dev-env.adoc[leveloffset=+1]
+
+* Using Mobile Services
+include::pages/push/index.adoc[leveloffset=+1]
+include::pages/push/provisioning.adoc[leveloffset=+1]
+include::pages/push/binding.adoc[leveloffset=+1]
+include::pages/configuring-dev-env.adoc[leveloffset=+1]
+include::pages/push/coding.adoc[leveloffset=+1]
+*** More...
+include::pages/push/sending-push-notifications.adoc[leveloffset=+1]
+include::pages/push/handling-push-notifications.adoc[leveloffset=+1]
+include::pages/push/apple-setup.adoc[leveloffset=+1]
+include::pages/push/google-setup.adoc[leveloffset=+1]
+
+include::pages/metrics/index.adoc[leveloffset=+1]
+include::pages/metrics/provisioning.adoc[leveloffset=+1]
+include::pages/metrics/binding.adoc[leveloffset=+1]
+include::pages/configuring-dev-env.adoc[leveloffset=+1]
+include::pages/metrics/coding.adoc[leveloffset=+1]
+include::pages/metrics/analysing-app-usage.adoc[leveloffset=+1]
+include::pages/monitoring-keycloak.adoc[leveloffset=+1]
+
+include::pages/using-the-showcase-apps.adoc[leveloffset=+1]
+include::pages/testcard.adoc[leveloffset=+1]
+include::pages/testcard.adoc[leveloffset=+1]
+include::pages/testcard.adoc[leveloffset=+1]
+include::pages/testcard.adoc[leveloffset=+1]
+include::pages/testcard.adoc[leveloffset=+1]
+
+.Reference
+include::pages/ref_api.adoc[leveloffset=+1]
+include::pages/mobile-cli.adoc[leveloffset=+1]
+
