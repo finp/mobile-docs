@@ -12,7 +12,27 @@ Mobile Services provide commonly required features for mobile app development.
 
 This guide introduces the procedures for using mobile services by guiding you through the process using the Identity Management service. For a full list of available services see xref:con_services.adoc[Mobile Services]
 
-include::keycloak/provisioning.adoc[leveloffset=1]
+:service-name: Identity Management
+
+include::{partialsdir}/generic-provisioning.adoc[]
+
+When provisioning a {keycloak-service} service, you are prompted to set the following configuration:
+
+* *Keycloak admin username*: Username for Keycloak administration
+
+* *Keycloak admin password*: Password for the Keycloak admin user
+
+* *Name of the Keycloak realm*: Name of the keycloak realm. (defaults to current namespace)
+
+NOTE: A realm manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
+
+* *Connect to an existing shared service*: Select if you want to use an existing service and you have the URL and credentials to use that service.
+
+* *URL of the shared service*: Enter a value if you want to use an existing shared service.
+
+include::{partialsdir}/generic-provisioning-end.adoc[]
+
+
 [[binding]]
 include::keycloak/binding.adoc[leveloffset=1]
 [[localdev]]
