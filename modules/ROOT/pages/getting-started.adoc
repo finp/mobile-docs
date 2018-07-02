@@ -12,6 +12,8 @@ Mobile Services provide commonly required features for mobile app development.
 
 This guide introduces the procedures for using mobile services by guiding you through the process using the Identity Management service. For a full list of available services see xref:con_services.adoc[Mobile Services]
 
+include::keycloak/provisioning.adoc[leveloffset=1]
+[[binding]]
 include::keycloak/binding.adoc[leveloffset=1]
 [[localdev]]
 == Setting Up your Local Development Environment
