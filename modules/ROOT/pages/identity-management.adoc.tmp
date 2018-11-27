@@ -1,5 +1,6 @@
 // start {partialsdir}/attributes.adoc[]
 // includedFile ../modules/ROOT/pages/_partials/attributes.adoc
+//keep separated
 :org-name: AeroGear
 
 :product-name: Mobile Services
@@ -53,14 +54,15 @@
 :toc:
 
 // start keycloak/index.adoc[leveloffset=0]
+// viable to nuke index.adoc and move the stuff to identity-management.adoc. No point of having two wrappers. Everywhere?
 :leveloffset: 0
 
 // includedFile ../modules/ROOT/pages/_partials/keycloak/index.adoc
-
+// keep
 
 //':context:' is a vital parameter. See: http://asciidoctor.org/docs/user-manual/#include-multiple
 :context: con_introduction-to-keycloak
-
+//do we want this... i would nuke this and use when the time comes
 [id='{context}']
 = {keycloak-service}
 
@@ -83,10 +85,11 @@ See the link:https://www.keycloak.org/documentation.html[Keycloak documentation,
 :leveloffset: +2
 
 // includedFile ../modules/ROOT/pages/_partials/keycloak/ref_terminology.adoc
+// keep separated
 
 
 //':context:' is a vital parameter. See: http://asciidoctor.org/docs/user-manual/#include-multiple
-:context: ref_terminology_{keycloak-service}
+:context: ref_terminology_{keycloak-service} //nuke
 
 [id='{context}_ref_terminology']
 
@@ -116,6 +119,7 @@ User Attributes:: additional properties for user accounts (besides name and emai
 
 // start {partialsdir}/generic-provisioning-pre-req.adoc[]
 // includedFile ../modules/ROOT/pages/_partials/generic-provisioning-pre-req.adoc
+// possible to remove this doc. Or manually add to every provision docs or ?
 * [x] You are running OpenShift with {product-name} as described in xref:getting-started.adoc[Setting up AeroGear {product-name} on OpenShift].
 // end {partialsdir}/generic-provisioning-pre-req.adoc[]
 
@@ -130,7 +134,7 @@ User Attributes:: additional properties for user accounts (besides name and emai
 
 = Provisioning the {keycloak-service} Service
 
-. Log into the OpenShift console.
+. Log into the OpenShift console. //yeah we can nuke generic-provisioning-pre-req.adoc
 . Create a new project or choose an existing project.
 . Click *Add to Project* and choose *Browse Catalog* from the options.
 +
@@ -160,7 +164,8 @@ NOTE: A realm manages a set of users, credentials, roles, and groups. A user bel
 // includedFile ../modules/ROOT/pages/_partials/generic-provisioning-end.adoc
 
 Once the wizard steps are completed, navigate to the Project Overview in OpenShift to see the newly provisioned service.
-Provisioning a service may take some time.
+Provisioning a service may take some time. //will this be different in mdc? I think yes. Anyway, this tells/told user nothing, because the UI of OS is more complex than that
+
 
 :leveloffset: 0
 // end keycloak/provisioning.adoc[leveloffset=2]
@@ -175,7 +180,7 @@ Provisioning a service may take some time.
 = Binding a {mobile-client}
 
 // includedFile ../modules/ROOT/pages/_partials/generic-binding.adoc
-
+// i'd keep this. But will have to be rewritten
 To use mobile services, you must represent your mobile app in OpenShift using a {mobile-client}, and that {mobile-client} must be associated with the mobile service.
 This association is called *binding* and it is necessary for your mobile app to use that service.
 
@@ -185,6 +190,7 @@ To bind a {mobile-client} with a mobile service:
 == Procedure
 
 // includedFile ../modules/ROOT/pages/_partials/generic-service-nav.adoc
+//rewrite this to include mdc
 
 . Navigate to the *Overview* of your OpenShift project.
 
@@ -215,11 +221,11 @@ image::mobile-clients-services-all-idm-provisioned.png[]
 // includedFile ../modules/ROOT/pages/_partials/keycloak/configuring-dev-env-keycloak.adoc
 
 
-:service-name: Identity Management
+:service-name: Identity Management //move to coding.adoc and nuke this file
 
 :leveloffset: 2
 
-// includedFile ../modules/ROOT/pages/_partials/keycloak/keycloak-setup.adoc
+// includedFile ../modules/ROOT/pages/_partials/keycloak/keycloak-setup.adoc //include in coding.adoc
 //
 
 = Configuring the Service
@@ -288,7 +294,7 @@ Depending on the platform, set the redirect as described in either the Android o
 
 :leveloffset: 2
 
-// includedFile ../modules/ROOT/pages/_partials/generic-obtaining-the-mobile-sdk-config-file.adoc
+// includedFile ../modules/ROOT/pages/_partials/generic-obtaining-the-mobile-sdk-config-file.adoc //include in coding.adoc
 
 
 //[[downloading-the-mobile-services-configuration-file]]
@@ -931,12 +937,13 @@ var authHeaderProvider = authService.AuthHeaderProvider;
 
 :leveloffset: 0
 // end keycloak/authenticating.adoc[leveloffset=1]
+//keep
 [[access]]
 // start keycloak/retrieving-users-roles.adoc[leveloffset=1]
 :leveloffset: 1
 
 // includedFile ../modules/ROOT/pages/_partials/keycloak/retrieving-users-roles.adoc
-
+// in identity-management.adoc. very good
 
 = Adding Access Control to your Mobile App
 
@@ -1041,6 +1048,7 @@ bool isModerator = user.HasResourceRole("my_resource", "user_moderator");
 :leveloffset: 1
 
 // includedFile ../modules/ROOT/pages/_partials/keycloak/sso.adoc
+// included in idm.adoc
 = Adding Single Sign-On (SSO) to your Mobile App
 
 The Auth SDK uses OpenID Connect http://openid.net/specs/openid-connect-core-1_0.html#CodeFlowAuth[Authorization Code Flow] to achieve SSO via a mobile device browser.
