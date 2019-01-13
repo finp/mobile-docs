@@ -22,7 +22,7 @@ This section describes how to set up the IDM Mobile Service.
 
 * xref:concept-explanation-getting-started-with-idm[Getting Started with IDM].
 
-= Procedure
+.Procedure
 
 To bind a {mobile-client} with a mobile service:
 

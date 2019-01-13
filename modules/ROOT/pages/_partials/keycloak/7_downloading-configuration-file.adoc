@@ -19,7 +19,7 @@ This section describes how to download the configuration file.
 
 * xref:concept-explanation-getting-started-with-idm[Getting Started with IDM].
 
-= Procedure
+.Procedure
 
 . Open your {mobile-client} in Mobile Developer Console.
 . Copy the `mobile-services.json` configuration to your clipboard.

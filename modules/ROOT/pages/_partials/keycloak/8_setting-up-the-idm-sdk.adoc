@@ -20,7 +20,7 @@ It describes how to set up and initialize the IDM sdk.
 
 * xref:concept-explanation-getting-started-with-idm[Getting Started with IDM].
 
-= Procedure
+.Procedure
 
 1. Import the libraries
 

@@ -21,7 +21,7 @@ For an explanation of these terms, see link:https://www.keycloak.org/documentati
 
 * xref:concept-explanation-getting-started-with-idm[Getting Started with IDM].
 
-= Procedure
+.Procedure
 
 . Choose the schema of a redirect url
 +
