@@ -25,13 +25,33 @@ include::{partialsdir}/attributes.adoc[]
 
 * xref:con_services.adoc[Mobile Services]
 
-** xref:identity-management.adoc[{keycloak-service}]
-*** xref:identity-management.adoc#introduction[Introduction]
-*** xref:identity-management.adoc#setting-up-the-idm-service[Setting Up]
-*** xref:identity-management.adoc#adding-user-authentication-to-your-mobile-app[User Authentication]
-*** xref:identity-management.adoc#access[Access Control]
-*** xref:identity-management.adoc#adding-sso-to-your-mobile-app[Single Sign On]
-*** xref:identity-management.adoc#monitoring[Monitoring Identity Management]
+* xref:identity-management.adoc[{keycloak-service}]
+
+
+** Setting up
+*** xref:keycloak-provisioning-the-idm.adoc[Provisioning]
+*** xref:keycloak-binding-an-app-to-a-service.adoc[Binding]
+*** xref:keycloak-configuring-the-service.adoc[Configuring]
+** Dev Env
+*** xref:keycloak-downloading-configuration-file.adoc[JSON config file]
+*** xref:keycloak-setting-up-the-idm-sdk.adoc[SDK]
+
+** Adding Auth
+// ** xref:keycloak-getting-started-with-user-authentication.adoc[]
+*** xref:keycloak-implementing-authentication.adoc[Coding]
+*** xref:keycloak-refreshing-the-authentication-token.adoc[Tokens]
+*** xref:keycloak-adding-log-out-option.adoc[Logout]
+*** xref:keycloak-authenticating-with-a-back-end-service.adoc[Backend]
+
+** xref:keycloak-adding-access-control.adoc[Access Control]
+
+** Adding SSO
+// ** xref:keycloak-getting-started-with-sso.adoc[]
+*** xref:keycloak-using-sso.adoc[SSO]
+
+// start metrics/monitoring-keycloak.adoc[leveloffset=1]
+** xref:metrics-monitoring-keycloak.adoc[Monitoring]
+
 
 ** xref:push-notifications.adoc[{unifiedpush-service}]
 *** xref:push-notifications.adoc#introduction[Introduction]
