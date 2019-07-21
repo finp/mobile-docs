@@ -1,6 +1,6 @@
-ifndef::downstream[]
+// tag::excludeDownstream[]
 include::_partials/attributes.adoc[]
-endif::downstream[]
+// end::excludeDownstream[]
 
 
 

@@ -13,7 +13,7 @@ gem install asciidoctor
 for filename in ../modules/ROOT/pages/*.adoc; do
 
   echo $filename
-  ../bin/asciidoc-coalescer.rb  $filename > ../build/site/$(basename "$filename")
+  ../bin/asciidoc-coalescer.rb $filename > ../build/site/$(basename "$filename")
 
 done
 
