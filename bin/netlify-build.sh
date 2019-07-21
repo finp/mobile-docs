@@ -5,4 +5,4 @@ node_modules/.bin/antora --html-url-extension-style=indexify --pull ../antora-si
 # ../bin/publish-adoc.sh > build/site/ds-audit.adoc
 
 echo 'node-publish-adoc'
-node index.js ../modules/ROOT/pages/ds-audit.adoc
+node index.js ../modules/ROOT/pages/ds-audit.adoc > build/site/ds-audit.adoc
