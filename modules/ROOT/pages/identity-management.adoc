@@ -1,6 +1,8 @@
-// start {partialsdir}/attributes.adoc[]
+ifndef::downstream[]
 include::_partials/attributes.adoc[]
-// end {partialsdir}/attributes.adoc[]
+endif::downstream[]
+
+
 
 :toclevels: 4
 
