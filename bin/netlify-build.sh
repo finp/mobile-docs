@@ -8,9 +8,11 @@ echo 'node-publish-adoc'
 # publish each file, eg
 # node index.js ../modules/ROOT/pages/ds-audit.adoc > ../build/site/ds-audit.adoc
 
+gem install asciidoctor
+
 for filename in ../modules/ROOT/pages/*.adoc; do
 
-  node index.js  $filename > ../build/site/$(basename "$filename")
+  ../bin/asciidoc-coalescer.rb  $filename > ../build/site/$(basename "$filename")
 
 done
 
