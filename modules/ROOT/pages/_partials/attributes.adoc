@@ -1,8 +1,11 @@
+// tag::excludeDownstream[]
+
 :org-name: AeroGear
 
 :product-name: Mobile Services
 
 :release-number: 1.0.0
+:showcase-version: 0.8.0
 :installer-release-number: 2.0.0
 :xamarin-sdk-release-number: 2.0.1
 :ios-sdk-release-number: 2.0.0
@@ -71,3 +74,4 @@
 :data-sync-queries-link: {link-product-doc-home}/ds-query.html
 :data-sync-auth-link: {link-product-doc-home}/ds-auth.html
 
+// end::excludeDownstream[]

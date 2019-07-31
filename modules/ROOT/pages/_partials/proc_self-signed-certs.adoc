@@ -1,4 +1,4 @@
-//[[using-self-signed-certificates-in-mobile-clients]]
+// tag::excludeDownstream[]
 = Using Self-Signed Certificates in Mobile Apps
 
 NOTE: Before you can run a mobile app and connect to {product-name}, you must configure self-signed certificates on the mobile device.
@@ -189,3 +189,4 @@ NOTE: Only perform these steps for development or debug purposes, the resulting 
 For more information, see the https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CocoaKeys.html#//apple_ref/doc/uid/TP40009251-SW60[Apple developer docs].
 --
 ====
+// end::excludeDownstream[]

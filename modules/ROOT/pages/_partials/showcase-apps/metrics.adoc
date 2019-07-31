@@ -1,4 +1,4 @@
-
+// tag::excludeDownstream[]
 
 = {metrics-service}
 
@@ -7,3 +7,5 @@
 . Navigate to the {grafana-ui}, and view the metrics.
 +
 If you perform xref:device-security.adoc[device security] checks, related metrics are also displayed.
+
+// end::excludeDownstream[]
