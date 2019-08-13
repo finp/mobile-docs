@@ -1,29 +1,3 @@
-// tag::excludeDownstream[]
-include::_partials/attributes.adoc[]
-// end::excludeDownstream[]
+include::_partials/attributes.adoc[tags={include-tags}]
+include::_partials/getting-started.adoc[tags={include-tags}]
 
-= Getting Started with {product-name}
-:page-partial:
-
-== Introduction
-
-{org-name} {product-name} provides solutions to common development challenges faced by mobile developers.
-With OpenShift's Container technology providing a secure, scalable backend platform, mobile developers can use the {org-name} SDK which supports a range of native (iOS & Android) and hybrid (Xamarin & Cordova) platforms to create secure, high quality apps and makes it easy to add features such as Push Notifications or Authentication.
-
-{mobile-client}s in OpenShift allow you to perform Cloud Native Mobile App Development using OpenShift as the back-end for your mobile apps. A {mobile-client} is a representation of the mobile app that you are developing locally. {mobile-client}s allow you to bind your mobile app to mobile services such as {keycloak-service}, {unifiedpush-service}, {metrics-service} and others. This makes many of the common tasks associated with mobile development much easier and quicker to implement.
-
-A configuration file named `mobile-services.json` acts as the link between your {mobile-client} in OpenShift and your local app in development. This configuration file is used to initialize the {SDK} in your mobile app and to connect to the back-end {product-name} you have provisioned on OpenShift.
-
-// start {partialsdir}/mdc-introduction.adoc[]
-include::_partials/mdc-introduction.adoc[]
-// end {partialsdir}/mdc-introduction.adoc[]
-
-IMPORTANT: {org-name} {product-name} is currently in a development phase. This makes it unsuitable for production deployment. Use this community release as an evaluation environment for developing and deploying mobile applications on Openshift.
-
-This guide shows you how to:
-
-* xref:getting-started-installing.adoc[Set up {org-name} {product-name} on OpenShift]
-* xref:getting-started-configuring.adoc[Create a {mobile-client} and a Mobile Service] ({keycloak-service})
-* xref:getting-started-running.adoc[Set up a local development environment]
-* xref:getting-started-running.adoc#running[Configure the {org-name} showcase app for your mobile platform] (Android, iOS, Cordova or Xamarin)
-* xref:getting-started-running.adoc#running-emulator[Run the showcase app and make calls to the {keycloak-service} service]

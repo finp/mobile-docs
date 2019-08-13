@@ -1,6 +1,4 @@
-// tag::excludeDownstream[]
-include::_partials/attributes.adoc[]
-// end::excludeDownstream[]
+include::_partials/attributes.adoc[tags={include-tags}]
 
 = Securing your mobile app
 :page-partial:
@@ -12,6 +10,6 @@ This guide does not address all mobile security topics. See the link:https://www
 * xref:device-checks[Adding {device-security-service} to your mobile app] - for example, disable app on rooted devices
 
 
-include::app-security.adoc[leveloffset=1]
-include::device-security.adoc[leveloffset=1]
+include::app-security.adoc[leveloffset=1,tags={include-tags}]
+include::device-security.adoc[leveloffset=1,tags={include-tags}]
 
