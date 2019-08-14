@@ -57,7 +57,7 @@ include::_partials/keycloak/using-sso.adoc[leveloffset=+2,tags={include-tags}]
 
 // tag::excludeDownstream[]
 [[monitoring]]
-// start metrics/monitoring-keycloak.adoc[leveloffset=1]
+// start metrics/monitoring-keycloak.adoc[leveloffset=+1]
 include::_partials/metrics/monitoring-keycloak.adoc[leveloffset=2,tags={include-tags}]
 // end::excludeDownstream[]
 

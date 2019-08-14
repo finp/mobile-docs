@@ -44,10 +44,10 @@ include::_partials/metrics/setting-up-sdk.adoc[leveloffset=+1,tags=!excludeUpstr
 include::_partials/metrics/analysing-app-usage.adoc[leveloffset=+1]
 
 [[monitoring]]
-// start metrics/monitoring-keycloak.adoc[leveloffset=1]
-include::_partials/metrics/monitoring-keycloak.adoc[leveloffset=1]
-include::_partials/metrics/monitoring-sync.adoc[leveloffset=1]
-include::_partials/metrics/viewing-keycloak-dashboards.adoc[leveloffset=1]
+// start metrics/monitoring-keycloak.adoc[leveloffset=+1]
+include::_partials/metrics/monitoring-keycloak.adoc[leveloffset=+1]
+include::_partials/metrics/monitoring-sync.adoc[leveloffset=+1]
+include::_partials/metrics/viewing-keycloak-dashboards.adoc[leveloffset=+1]
 
 // Restore the context to what it was before this assembly.
 ifdef::parent-context[:context: {parent-context}]

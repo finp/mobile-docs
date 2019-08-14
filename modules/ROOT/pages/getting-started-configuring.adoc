@@ -1,6 +1,4 @@
-// tag::excludeDownstream[]
-include::_partials/attributes.adoc[]
-// end::excludeDownstream[]
+include::_partials/attributes.adoc[tags={include-tags}]
 
 // tag::excludeDownstream[]
 :docs-create-user: https://www.keycloak.org/docs/3.3/server_admin/topics/users/create-user.html
@@ -24,63 +22,16 @@ include::_partials/attributes.adoc[]
 
 
 [[registering]]
-// start registering-a-mobile-app.adoc[leveloffset=1]
-include::_partials/registering-a-mobile-app.adoc[leveloffset=1]
-// end registering-a-mobile-app.adoc[leveloffset=1]
+include::_partials/registering-a-mobile-app.adoc[leveloffset=+1]
+
 
 // tag::excludeDownstream[]
-[[provisioning]]
-== Provisioning your First Service
-
-{product-name} provide commonly required features for mobile app development.
-
-This section introduces the procedures for using {product-name} by guiding you through the process using the Identity Management service. For a full list of available services, see xref:con_services.adoc[Mobile Services]
-
-:service-name: Identity Management
-
-// start {partialsdir}/generic-provisioning.adoc[]
-include::_partials/generic-provisioning.adoc[]
-// end {partialsdir}/generic-provisioning.adoc[]
-
-NOTE: When completing the {keycloak-service} provisioning wizard, you are prompted to enter configuration data. For the purposes of this guide, keep the default values.
-For more information about the {keycloak-service} provisioning wizard fields, see xref:configuration-additional-resources[{keycloak-service} Configuration].
-
-// start {partialsdir}/generic-provisioning-end.adoc[]
-include::_partials/generic-provisioning-end.adoc[]
-// end {partialsdir}/generic-provisioning-end.adoc[]
-
-[id='configuration-additional-resources']
-[discrete]
-=== Additional resources
-
-==== {keycloak-service} Configuration
-
-* *Keycloak admin username*: Username for Keycloak administration
-
-* *Keycloak admin password*: Password for the Keycloak admin user
-
-* *Name of the Keycloak realm*: Name of the keycloak realm. (defaults to current namespace)
-
-NOTE: A realm manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
-
-* *Connect to an existing shared service*: Select if you want to use an existing service and you have the URL and credentials to use that service.
-
-* *URL of the shared service*: Enter a value if you want to use an existing shared service.
+include::_partials/getting-started/provisioning-first-service.adoc[]
 // end::excludeDownstream[]
 
 
 [[binding]]
-:service-name: Identity Management
-== Binding a {mobile-client} with the {service-name} Service
-
-include::_partials/generic-binding.adoc[]
-+
-image::mobile-clients-services-idm-parameters.png[]
-NOTE: Use `Public` when binding a {mobile-client} to a {service-name}. When binding mobile services to each other, use `Bearer`.
-
-The {service-name} service will now be expandable, details about the service can be viewed.
-
-image::mobile-clients-services-all-idm-provisioned.png[]
+include::_partials/keycloak/binding-an-app-to-a-service.adoc[leveloffset=+2,tags={include-tags}]
 
 [[configuring]]
 == Configuring the Service

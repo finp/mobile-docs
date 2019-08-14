@@ -1,0 +1,37 @@
+[[provisioning]]
+== Provisioning your First Service
+
+{product-name} provide commonly required features for mobile app development.
+
+This section introduces the procedures for using {product-name} by guiding you through the process using the Identity Management service. For a full list of available services, see xref:con_services.adoc[Mobile Services]
+
+:service-name: Identity Management
+
+// start {partialsdir}/generic-provisioning.adoc[]
+include::../generic-provisioning.adoc[]
+// end {partialsdir}/generic-provisioning.adoc[]
+
+NOTE: When completing the {keycloak-service} provisioning wizard, you are prompted to enter configuration data. For the purposes of this guide, keep the default values.
+For more information about the {keycloak-service} provisioning wizard fields, see xref:configuration-additional-resources[{keycloak-service} Configuration].
+
+// start {partialsdir}/generic-provisioning-end.adoc[]
+include::../generic-provisioning-end.adoc[]
+// end {partialsdir}/generic-provisioning-end.adoc[]
+
+[id='configuration-additional-resources']
+[discrete]
+=== Additional resources
+
+==== {keycloak-service} Configuration
+
+* *Keycloak admin username*: Username for Keycloak administration
+
+* *Keycloak admin password*: Password for the Keycloak admin user
+
+* *Name of the Keycloak realm*: Name of the keycloak realm. (defaults to current namespace)
+
+NOTE: A realm manages a set of users, credentials, roles, and groups. A user belongs to and logs into a realm. Realms are isolated from one another and can only manage and authenticate the users that they control.
+
+* *Connect to an existing shared service*: Select if you want to use an existing service and you have the URL and credentials to use that service.
+
+* *URL of the shared service*: Enter a value if you want to use an existing shared service.

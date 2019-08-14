@@ -32,9 +32,9 @@ include::_partials/cloning-showcase-app.adoc[]
 // end {partialsdir}/cloning-showcase-app.adoc[]
 
 
-// start {partialsdir}/generic-obtaining-the-mobile-sdk-config-file.adoc[leveloffset=2]
-include::_partials/generic-obtaining-the-mobile-sdk-config-file.adoc[leveloffset=1]
-// end {partialsdir}/generic-obtaining-the-mobile-sdk-config-file.adoc[leveloffset=2]
+// start {partialsdir}/generic-obtaining-the-mobile-sdk-config-file.adoc[leveloffset=+2]
+include::_partials/generic-obtaining-the-mobile-sdk-config-file.adoc[leveloffset=+1]
+// end {partialsdir}/generic-obtaining-the-mobile-sdk-config-file.adoc[leveloffset=+2]
 
 
 == Building the app
@@ -44,16 +44,16 @@ include::_partials/build-and-deploy.adoc[tags=build]
 // end {partialsdir}/build-and-deploy.adoc[tags=build]
 
 // start {partialsdir}/proc_self-signed-certs.adoc[leveloffset=3]
-include::_partials/proc_self-signed-certs.adoc[leveloffset=1]
+include::_partials/proc_self-signed-certs.adoc[leveloffset=+1]
 // end {partialsdir}/proc_self-signed-certs.adoc[leveloffset=3]
 
 
 [[running-emulator]]
 == Running the app in an emulator
 
-// start {partialsdir}/running-app-in-emulator.adoc[leveloffset=1]
-include::_partials/running-app-in-emulator.adoc[leveloffset=1]
-// end {partialsdir}/running-app-in-emulator.adoc[leveloffset=1]
+// start {partialsdir}/running-app-in-emulator.adoc[leveloffset=+1]
+include::_partials/running-app-in-emulator.adoc[leveloffset=+1]
+// end {partialsdir}/running-app-in-emulator.adoc[leveloffset=+1]
 
 // start {partialsdir}/identity-management-demo.adoc[tags=idm-demo]
 include::_partials/identity-management-demo.adoc[tags=idm-demo]
